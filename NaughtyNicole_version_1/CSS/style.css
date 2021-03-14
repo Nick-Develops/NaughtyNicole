@@ -1,0 +1,107 @@
+/* Style page for Naughty Nicole */
+
+/* Global Styles */
+
+main {
+
+}
+
+h1 {
+    font-family: Tangerine, cursive;
+    color:rgb(110, 14, 107);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', Sans-Serif;
+    color:rgb(110, 14, 107);
+}
+
+body {
+    background-image: url('/Users/nickbyrne/Desktop/Coding/Projects/NaughtyNicole_version_1/Resources/NauhtyNicoleBackground.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    left: 1000px;
+}
+
+/* Navbar styles */
+
+header {
+    width: 100%;
+}
+
+.header-container {
+    color: violet;
+    background-color: rgba(31, 31, 31, 0.2);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 12%;
+    height: 3rem;
+}
+
+header div {
+    padding: 2px 2px
+}
+
+.logo-mini{
+    cursor: pointer;
+}
+
+.cart-mini {
+    color: blue;
+    font-size: larger;
+}
+
+
+/* Banner styles */
+
+.banner-image {
+    width: 100%;
+    height: 800px;
+    background-image: url('img_flowers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 160px;
+    font-family: Tangerine, cursive;
+}
+
+/* Info section */
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    height: 480px;
+    width: 20%;
+    margin: 5% 5% 10% 5%;
+    border: 1px solid rgb(46, 1, 46);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(31, 31, 31, 0.3)
+}
+
+
+/* Footer section */
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    padding: 1rem 0;
+    background-color: rgba(31, 31, 31, 0.2)
+}
